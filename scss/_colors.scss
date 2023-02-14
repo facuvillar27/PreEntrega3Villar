@@ -1,0 +1,62 @@
+$colorPrincipal: #262329;
+$colorSecundario: #B6EADA;
+$colorLetraPrincipal: white;
+
+body {
+    background-color: $colorPrincipal !important;
+}
+
+.header {
+    background-color: $colorPrincipal;
+    border-bottom: 2px solid $colorSecundario;
+}
+
+.navbar-brand {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#navbarNavAltMarkup {
+    div{
+        a{
+            color: $colorLetraPrincipal;
+            &:hover {
+                background: $colorLetraPrincipal;
+                border-radius: 20px;
+                color: black;
+            }   
+        }     
+    }
+}
+
+h1, h2, h3, h4, h5, p {
+    color: $colorLetraPrincipal !important;
+}
+
+.contactos__lugar, .contactos__telefono, .contactos__reloj, .contactos__correo {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+footer {
+    color: $colorLetraPrincipal;
+}
+
+.footer__copyright__c {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+#myBtn1, #myBtn2 {
+    color: white;
+    background-color: $colorPrincipal;
+    border-color: $colorPrincipal;
+    &:hover {
+        background: white;
+        color: $colorPrincipal !important;
+    }
+}
+
+thead th, tbody tr {
+    color: white;
+}

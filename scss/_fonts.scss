@@ -1,0 +1,32 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+}
+
+.header {
+    font-size: medium;
+}
+
+#navbarNavAltMarkup {
+    div{
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 30px;
+            width: 170px;
+        }     
+    }
+}
+
+#contactos__parrafos p {
+    font-size: 16px;
+}
+
+@media (max-width: 991px) {
+
+    #artista__tabla div:nth-of-type(1) {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}

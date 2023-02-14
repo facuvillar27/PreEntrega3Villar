@@ -1,0 +1,179 @@
+.header {
+  margin: 0px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1020; }
+
+#navbarNavAltMarkup div {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  position: relative; }
+  #navbarNavAltMarkup div:hover {
+    border-radius: 20px; }
+  #navbarNavAltMarkup div a {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px; }
+    #navbarNavAltMarkup div a:hover {
+      border-radius: 20px; }
+
+#titulo, #video {
+  margin-top: 50px !important; }
+
+#more1, #more2 {
+  display: none; }
+
+#myBtn1, #myBtn2 {
+  border-radius: 20px; }
+  #myBtn1:hover, #myBtn2:hover {
+    border-radius: 20px; }
+
+.c-item {
+  height: 480px; }
+
+.c-img {
+  height: 100%;
+  object-fit: cover; }
+
+.contactos__lugar, .contactos__telefono, .contactos__reloj, .contactos__correo {
+  width: 50px;
+  height: 50px; }
+
+.results tr[visible='false'],
+.no-result {
+  display: none; }
+
+.results tr[visible='true'] {
+  display: table-row; }
+
+.counter {
+  padding: 8px;
+  color: #ccc; }
+
+.form-control {
+  display: flex;
+  justify-content: end; }
+
+#foto__tabla {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.table td, .table th {
+  vertical-align: middle !important; }
+
+#soundcloud__tabla {
+  display: flex;
+  flex-direction: row;
+  align-items: center !important; }
+
+@media (max-width: 991px) {
+  td:nth-of-type(2), td:nth-of-type(3) {
+    display: none; }
+  tr th {
+    display: none; }
+  #artista__tabla {
+    align-items: flex-start; } }
+
+body {
+  background-color: #262329 !important; }
+
+.header {
+  background-color: #262329;
+  border-bottom: 2px solid #B6EADA; }
+
+.navbar-brand {
+  -webkit-filter: invert(100%);
+  filter: invert(100%); }
+
+#navbarNavAltMarkup div a {
+  color: white; }
+  #navbarNavAltMarkup div a:hover {
+    background: white;
+    border-radius: 20px;
+    color: black; }
+
+h1, h2, h3, h4, h5, p {
+  color: white !important; }
+
+.contactos__lugar, .contactos__telefono, .contactos__reloj, .contactos__correo {
+  -webkit-filter: invert(100%);
+  filter: invert(100%); }
+
+footer {
+  color: white; }
+
+.footer__copyright__c {
+  -webkit-filter: invert(100%);
+  filter: invert(100%); }
+
+#myBtn1, #myBtn2 {
+  color: white;
+  background-color: #262329;
+  border-color: #262329; }
+  #myBtn1:hover, #myBtn2:hover {
+    background: white;
+    color: #262329 !important; }
+
+thead th, tbody tr {
+  color: white; }
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  line-height: 1em; }
+
+.header {
+  font-size: medium; }
+
+#navbarNavAltMarkup div a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  width: 170px; }
+
+#contactos__parrafos p {
+  font-size: 16px; }
+
+@media (max-width: 991px) {
+  #artista__tabla div:nth-of-type(1) {
+    font-size: 25px;
+    font-weight: bold; } }
+
+#main {
+  background-image: url(../img/main2.jpg); }
+
+.facebook:hover {
+  display: inline-block;
+  margin: 0 1rem;
+  animation: flip;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s;
+  /* don't forget to set a duration! */ }
+
+.instagram:hover {
+  display: inline-block;
+  margin: 0 1rem;
+  animation: flip;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s;
+  /* don't forget to set a duration! */ }
+
+.soundcloud:hover {
+  display: inline-block;
+  margin: 0 1rem;
+  animation: flip;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s;
+  /* don't forget to set a duration! */ }
+
+.video__efect:hover {
+  display: inline-block;
+  margin: 0 1rem;
+  animation: fadeIn;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s;
+  /* don't forget to set a duration! */ }
